@@ -1,0 +1,112 @@
+/* цвет основного текста #212121 */
+/* цвет вторичного текста #757575 */
+/* белый цвет #FFFFFF */
+/* акцент #2196F3 */
+/* основной цвети фона #FFFFFF  */
+/* вторичный цвет фона #2F303A */
+/* серый фон #F5F4FA */
+
+:root {
+    --primery-text-color: #757575;
+    --secondary-text-color: #212121;
+    --accent-color: #2196F3;
+}
+body {
+    background-color: #FFFFFF;
+    color: var(--primery-text-color);
+}
+/* шапка */
+a {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: var(--accent-color);
+}
+
+.logo-studio {
+    color: #000000;
+}
+
+.list-nav {
+    color: var(--secondary-text-color);
+}
+
+.list-nav:hover,
+.list-nav:focus{
+    color: var(--accent-color);
+
+}
+.connection {
+    color: var(--primery-text-color);
+}
+
+.connection:hover,
+.connection:focus {
+    color: var(--accent-color);
+}
+
+/* герой */
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+.hero-button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+/* рабочие секции */
+
+.section-title {
+    color: var(--secondary-text-color);
+}
+
+.section {
+    background-color: #F5F4FA;
+}
+
+/* футер */
+
+.footer {
+    background-color: #2F303A;
+}
+
+.logo-footer {
+    color: #FFFFFF;
+}
+
+.address {
+    color: #FFFFFF;
+}
+
+.connection-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.connection-footer:hover,
+.connection-footer:focus {
+    color: var(--accent-color);
+}
+
+/* портфолио */
+
+.button-portfolio {
+    background-color: #F5F4FA;
+    color: #212121;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
