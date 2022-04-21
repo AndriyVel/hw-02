@@ -36,6 +36,10 @@ a {
     color: var(--secondary-text-color);
 }
 
+.list-nav.current {
+    color: var(--accent-color);
+}
+
 .list-nav:hover,
 .list-nav:focus{
     color: var(--accent-color);
